@@ -1,0 +1,5 @@
+//Query the list of CITY names ending with vowels (a, e, i, o, u) from STATION. Your result cannot contain duplicates.
+//https://www.hackerrank.com/challenges/weather-observation-station-7/problem?h_r=next-challenge&h_v=zen&h_r=next-challenge&h_v=zen
+
+ANSWER:
+SELECT DISTINCT CITY FROM station WHERE CITY LIKE '%A' or city LIKE '%E' or city LIKE '%I'or city LIKE '%O' or city LIKE '%U';
